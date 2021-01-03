@@ -6,7 +6,7 @@ const Services = () => {
     <Title title="services" />
     <div className="section-center services-center">
       {services.map((nduma)=>{
-        const {id, icon, title,text} = nduma
+        const {id, icon, title, text} = nduma
         return <article key={id} className="service">
           {icon}
           <h4>{title}</h4>

@@ -14,10 +14,10 @@ const Error = () => {
           </Link>
         </div>
 
-    </main>
+      </main>
     </Layout>
   
-)
+  )
 }
 
 export default Error

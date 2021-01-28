@@ -68,10 +68,10 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-# Assets
-# .src/
-# src
-# .assets/
-# assets/
-# assets
+#Assets
+.src/
+src
+.assets/
+assets/
+assets
 

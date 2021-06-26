@@ -26,16 +26,16 @@ const data = [
     url: "https://twitter.com/MbuiCodes",
     
   },
-  {
-    id: 4,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: "#",
-  },
-  {
-    id: 5,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    url: "#",
-  },
+  // {
+  //   id: 4,
+  //   icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
+  //   url: "#",
+  // },
+  // {
+  //   id: 5,
+  //   icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
+  //   url: "#",
+  // },
 ]
 const links = data.map(link => {
   return (

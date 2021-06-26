@@ -203,7 +203,8 @@ p {
 }
 
 .section-title {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -218,7 +219,7 @@ p {
   margin-top: 2rem;
   width: 15rem;
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between; */
 }
 
 .social-link {

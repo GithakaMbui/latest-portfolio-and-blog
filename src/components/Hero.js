@@ -30,15 +30,16 @@ const Hero = () => {
       <article className="hero-info">
         <div>
           <div className="underline"></div>
-          <h3>I'm Augustin G. Mbui</h3>
+          <h3>I'm Augustin Mbui</h3>
           <h4>
               A{" "}
               <TextLoop className="text-loop">
-                <span>graduate</span>
+                <span>detail-oriented</span>
+                <span>focussed</span>
                 <span>passionate</span>
                 <span>resilient</span>
               </TextLoop>{" "}
-              Software developer
+              Software Developer
             </h4>
           <Link to='/contact' className="btn" aria-label="Contact Me">
             Contact Me

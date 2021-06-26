@@ -14,7 +14,6 @@ export default ({data}) => {
 
   }  = data
   return <Layout>
-    <SEO title="Home" description="this is the homepage"/>
     <Hero/>
     <Services />
     <Jobs/>

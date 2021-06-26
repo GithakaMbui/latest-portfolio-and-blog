@@ -1,12 +1,13 @@
 import React from "react"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
+import TextLoop from "react-text-loop";
 import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
 
 const query = graphql`
 {
-  file(relativePath: {eq: "hero-img.png"}) {
+  file(relativePath: {eq: "mypic.jpg"}) {
     childImageSharp {
       fluid {
        ...GatsbyImageSharpFluid
@@ -25,18 +26,27 @@ const Hero = () => {
 
   return <header className="hero">
     <div className="section-center hero-center">
+    <Image fluid={fluid} className="hero-img" />
       <article className="hero-info">
         <div>
           <div className="underline"></div>
-          <h2>I'm Augustin Mbui</h2>
-          <h4>Software engineer</h4>
-          <Link to='/contact' className="btn">
+          <h3>I'm Augustin G. Mbui</h3>
+          <h4>
+              A{" "}
+              <TextLoop className="text-loop">
+                <span>graduate</span>
+                <span>passionate</span>
+                <span>resilient</span>
+              </TextLoop>{" "}
+              Software developer
+            </h4>
+          <Link to='/contact' className="btn" aria-label="Contact Me">
             Contact Me
           </Link>
-          <SocialLinks />
+          <SocialLinks aria-label="Social Links" />
         </div>
         </article>
-      <Image fluid={fluid} className="hero-img" />
+      
     </div>
   </header>
 }

@@ -1,22 +1,22 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaSketch, FaAndroid, FaAdobe, FaReact, FaNode } from "react-icons/fa"
 export default [
   {
     id: 1,
-    icon: <FaCode className="service-icon" />,
-    title: "front end",
-    text: `For frontend work, I am personally a huge fan of React.js and it's ecosystem (e.g. Gatsby.js). I have used Javascript, html5, css3, bootstrap and wordpress in some of my projects`,
+    icon: <FaReact className="service-icon" />,
+    title: "frontend",
+    text: `For frontend work, I am a huge fan of React.JS. I am proficient with ES6, React.JS, Redux, Gatsby, NextJS, HTML5, CSS3, Bootstrap and Wordpress.`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "back end",
-    text: `I primarily work with Node.js and Express and a nice healthy sprinkle of infrastructure work too.`,
+    icon: <FaNode className="service-icon" />,
+    title: "backend",
+    text: `I primarily work with Node/Express and Laravel to build scalable APIs and other backend business logics. `,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
+    icon: <FaAdobe className="service-icon" />,
     title: "design",
-    text: `I love creating functional, human-centric and catchy UI mockups and wireframes. `,
+    text: ` Adobe Photoshop and Adobe Illustrator `,
   },
 ]
